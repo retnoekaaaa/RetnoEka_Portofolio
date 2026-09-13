@@ -110,6 +110,29 @@ export const portfolioData: PortfolioData = {
         "Multi-Role RBAC Logic: Implemented authorization controllers handling seller registration verification, catalog moderation, and admin workflows.",
         "Automated Reporting: Developed dynamic PDF generation endpoints using DomPDF for seller stock analysis, rating distributions, and restock alerts."
       ]
+    },
+    {
+      id: "project-4",
+      tabLabel: "PROJECT #4",
+      title: "BIOPORI KEDUNGBANJAR",
+      subtitle: "Interactive Community Education & Organic Waste Calculator Platform",
+      description: "Engineered as a solo digital initiative during the university community service program (KKN) in Desa Kedungbanjar. The platform empowers rural residents to learn, build, and maintain Biopore Infiltration Holes (Lubang Resapan Biopori) to curb household organic waste, enrich soil fertility, and reduce localized flood risks through an engaging, accessible web application.",
+      category: "Web App",
+      date: "JUL 2026",
+      role: "Sole Developer & Designer",
+      timeline: "July 2026",
+      team: "Solo Project (KKN Community Service)",
+      tags: ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React", "Interactive Calculators"],
+      metrics: [],
+      featuredImage: "/images/projects/biopori-main.jpg",
+      secondaryImage: "/images/projects/biopori-logo.png",
+      githubUrl: "https://github.com/retnoekaaaa/KKN_Kedungbanjar26_Biopori.git",
+      highlights: [
+        "Solo University Community Project (KKN): Independently conceptualized, designed, and developed for the community of Desa Kedungbanjar.",
+        "Interactive Organic Waste Calculator: Implemented a dynamic client-side calculator estimating household organic waste and compost yield.",
+        "Visual Ground & Absorption Simulation: Developed animated cross-section graphics representing soil layers and rainwater infiltration using Framer Motion.",
+        "Community-Centric Accessibility: Built step-by-step DIY installation guides, waste categorization (Dos & Don'ts), and maintenance harvesting schedules."
+      ]
     }
   ],
 

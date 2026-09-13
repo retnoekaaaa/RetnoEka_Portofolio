@@ -9,7 +9,7 @@ export const ProjectsSection: React.FC = () => {
   const { projects } = portfolioData;
   const [selectedCategory, setSelectedCategory] = useState<string>("ALL");
 
-  const categories = ["ALL", "Fullstack", "Web App", "Backend/API"];
+  const categories = ["ALL", "Fullstack", "Frontend", "Backend/API", "Web App"];
 
   const filteredProjects =
     selectedCategory === "ALL"
