@@ -32,7 +32,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Database & Cloud",
       color: "blue",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Docker", "Git & GitHub", "Prisma ORM"]
+      skills: ["MySQL", "PostgreSQL", "Docker", "Git & GitHub", "Prisma ORM"]
     },
     {
       title: "Design & Tools",
