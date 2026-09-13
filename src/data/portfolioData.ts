@@ -91,28 +91,24 @@ export const portfolioData: PortfolioData = {
     {
       id: "project-3",
       tabLabel: "PROJECT #3",
-      title: "FORGE",
-      subtitle: "High-Performance Cloud Metric & Server Monitor",
-      description: "Lightweight, beautiful monitoring dashboard for container clusters and microservices with automated anomaly alerts and discord webhooks.",
+      title: "CEKIMARKET",
+      subtitle: "Multi-Role Online Marketplace & Seller Analytics Platform",
+      description: "Developed as a collaborative academic project for the Software Engineering Project (PPL - Proyek Perangkat Lunak) course. CekiMarket connects buyers, verified sellers, and platform administrators within an integrated e-commerce ecosystem. I led backend development, designing the database schema, business logic, authorization rules, and automated PDF reporting services.",
       category: "Backend/API",
-      date: "NOV 20, 2023",
-      role: "Backend & Cloud Engineer",
-      timeline: "2 Months",
-      team: "2 Engineers",
-      tags: ["Go", "FastAPI", "InfluxDB", "Grafana", "Docker", "Prometheus"],
-      metrics: [
-        { label: "MEMORY CONSUMPTION", value: "< 25MB", color: "pink" },
-        { label: "QUERY TIME", value: "1.8ms", color: "yellow" },
-        { label: "UPTIME ACCURACY", value: "99.99%", color: "green" }
-      ],
-      featuredImage: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1200&q=80",
-      secondaryImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      demoUrl: "https://example.com/forge-demo",
-      githubUrl: "https://github.com/example/forge",
+      date: "AUG 2025",
+      role: "Backend Developer",
+      timeline: "August 2025",
+      team: "Group Project (PPL Course)",
+      tags: ["Laravel 12", "PHP 8.2+", "MySQL", "Inertia.js", "React 18", "Tailwind CSS", "DomPDF", "Sanctum"],
+      metrics: [],
+      featuredImage: "/images/projects/cekimarket-main.jpg",
+      secondaryImage: "/images/projects/cekimarket-promo1.png",
+      githubUrl: "https://github.com/rafihendiansyah/CekiMarket.git",
       highlights: [
-        "Designed time-series metric aggregation pipeline in Go.",
-        "Built dynamic anomaly detection rule engine with configurable alert webhooks.",
-        "Low memory agent daemon packaged as a 12MB static Docker container."
+        "Academic Group Project: Built collaboratively for the Software Engineering Project (PPL) course following formal SRS specifications.",
+        "Data Modeling & Architecture: Engineered relational MySQL migrations for users, multi-role permissions, product inventories, and reviews.",
+        "Multi-Role RBAC Logic: Implemented authorization controllers handling seller registration verification, catalog moderation, and admin workflows.",
+        "Automated Reporting: Developed dynamic PDF generation endpoints using DomPDF for seller stock analysis, rating distributions, and restock alerts."
       ]
     }
   ],
