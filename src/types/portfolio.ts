@@ -10,7 +10,7 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
-  category: "Web App" | "Mobile App" | "Backend/API" | "Fullstack" | "Open Source";
+  category: "Web App" | "Mobile App" | "Backend/API" | "Fullstack" | "Frontend" | "Open Source";
   date: string;
   role: string;
   timeline: string;

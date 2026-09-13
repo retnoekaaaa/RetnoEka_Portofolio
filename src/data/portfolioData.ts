@@ -68,28 +68,24 @@ export const portfolioData: PortfolioData = {
     {
       id: "project-2",
       tabLabel: "PROJECT #2",
-      title: "TANDEM",
-      subtitle: "Collaborative Developer Workspace & Code Snippets",
-      description: "A developer-first synchronous workspace with live pair-programming terminals, syntax-highlighted scratchpads, and instant GitHub gist sync.",
-      category: "Web App",
-      date: "JAN 5, 2024",
-      role: "Frontend Architect",
-      timeline: "3 Months",
-      team: "Solo Project",
-      tags: ["React", "Next.js", "Monaco Editor", "Tailwind CSS", "Redis", "Docker"],
-      metrics: [
-        { label: "LIGHTHOUSE SCORE", value: "99/100", color: "yellow" },
-        { label: "BUNDLE SIZE", value: "78 KB", color: "green" },
-        { label: "COMMUNITY STARS", value: "450+", color: "blue" }
-      ],
-      featuredImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-      secondaryImage: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
-      demoUrl: "https://example.com/tandem-demo",
-      githubUrl: "https://github.com/example/tandem",
+      title: "SHOES4US",
+      subtitle: "Modern Footwear E-Commerce & Order Tracking Platform",
+      description: "Developed as a collaborative academic group project for the Platform-Based Development (PBP) course at Universitas Diponegoro. Shoes4Us delivers an intuitive online footwear shopping experience with catalog filtering, real-time cart state, and order lifecycle tracking. I served as the Frontend Developer, engineering the application layout and the order status tracking interface.",
+      category: "Frontend",
+      date: "OCT 2025",
+      role: "Frontend Developer",
+      timeline: "October 2025",
+      team: "Group Project (PBP Course)",
+      tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "React 18", "Lucide React", "React Hot Toast"],
+      metrics: [],
+      featuredImage: "/images/projects/shoes4us-main.jpg",
+      secondaryImage: "/images/projects/shoes4us-logo.jpg",
+      githubUrl: "https://github.com/Ranggadya/E-Commerce.git",
       highlights: [
-        "Integrated Microsoft Monaco editor with customized retro syntax themes.",
-        "Optimized Web Workers for running in-browser JavaScript evaluation securely.",
-        "Zero latency state synchronization powered by WebRTC."
+        "Academic Group Project: Collaborated with a 5-member student engineering team for Platform-Based Development (PBP).",
+        "Core Layout & Providers: Architected root layout with AuthProvider, CartProvider, Toast notifications, and global error boundaries.",
+        "Order Lifecycle Tracking: Implemented real-time order status tracking interface (/status-pesanan) with dynamic order state badges.",
+        "Responsive Storefront: Structured homepage with hero promotional carousels, category showcases, and product grid components."
       ]
     },
     {
