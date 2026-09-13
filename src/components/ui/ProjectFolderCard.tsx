@@ -34,15 +34,21 @@ export const ProjectFolderCard: React.FC<ProjectFolderCardProps> = ({ project, i
           </span>
         </div>
 
-        <div className="flex items-center gap-4 text-xs font-mono text-neutral-300">
+        <div className="flex items-center flex-wrap gap-2.5 sm:gap-4 text-xs font-mono text-neutral-300">
           <span className="flex items-center gap-1">
             <Calendar size={13} className="text-yellow-400" />
             {project.date}
           </span>
-          <span className="hidden sm:flex items-center gap-1">
+          <span className="flex items-center gap-1 text-emerald-300">
             <User size={13} className="text-emerald-400" />
             {project.role}
           </span>
+          {project.team && (
+            <span className="hidden md:flex items-center gap-1 text-amber-300">
+              <Users size={13} className="text-amber-400" />
+              {project.team}
+            </span>
+          )}
         </div>
       </div>
 

@@ -45,28 +45,24 @@ export const portfolioData: PortfolioData = {
     {
       id: "project-1",
       tabLabel: "PROJECT #1",
-      title: "WAYLINE",
-      subtitle: "Smart Urban Transit & Live Tracking Web App",
-      description: "A real-time transit tracking and route optimization web application that simplifies chaotic public transit schedules into a seamless, tap-and-go digital journey.",
+      title: "ALUMNI HUB",
+      subtitle: "Centralized Community & Career Portal for Alumni & Guests",
+      description: "Developed during an industrial internship (PKL) as a collaborative group project. AlumniHub connects graduates, students, and guests through an integrated platform. I held primary ownership of the Alumni module (community feed, event hosting, and learning resources) and the public Guest portal (alumni directory, verification, and FAQ).",
       category: "Fullstack",
-      date: "MAR 15, 2024",
-      role: "Lead Fullstack Engineer",
-      timeline: "4 Months",
-      team: "3 Engineers, 1 Designer",
-      tags: ["Next.js", "TypeScript", "Node.js", "WebSockets", "Mapbox GL", "PostgreSQL"],
-      metrics: [
-        { label: "FASTER ROUTE QUERY", value: "47%", color: "blue" },
-        { label: "API LATENCY REDUCTION", value: "-55%", color: "pink" },
-        { label: "ACTIVE DAILY USERS", value: "12K+", color: "green" }
-      ],
-      featuredImage: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&w=1200&q=80",
-      secondaryImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
-      demoUrl: "https://example.com/wayline-demo",
-      githubUrl: "https://github.com/example/wayline",
+      date: "JAN – MAR 2026",
+      role: "Alumni & Guest Role Lead",
+      timeline: "3 Months (Jan – Mar 2026)",
+      team: "Group Project (PKL Internship)",
+      tags: ["Next.js 16", "TypeScript", "Supabase", "Tailwind CSS", "Framer Motion", "Recharts", "RBAC"],
+      metrics: [],
+      featuredImage: "/images/projects/alumnihub-main.png",
+      secondaryImage: "/images/projects/alumnihub-preview.jpg",
+      githubUrl: "https://github.com/syahlasandiani/pkl-alumnihub.git",
       highlights: [
-        "Built WebSocket live bus tracking engine handling 500+ updates/sec.",
-        "Implemented offline-first Progressive Web App (PWA) with client-side caching.",
-        "Engineered intelligent pathfinding algorithm reducing commuter wait times."
+        "Group Project (PKL): Built collaboratively using Git feature branches and code reviews.",
+        "Alumni Module: Developed interactive community posts, event management, and resource downloads.",
+        "Guest Module: Designed public alumni directory, institutional FAQs, and student verification.",
+        "Architecture: Integrated Supabase (PostgreSQL, Auth & Storage) with Next.js App Router and Server Actions."
       ]
     },
     {
