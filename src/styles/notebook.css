@@ -1,0 +1,76 @@
+/* Notebook Lined Paper & Scrapbook Textures */
+
+:root {
+  --paper-bg: #fbf9f4;
+  --paper-line: #e2ded5;
+  --paper-margin-line: #fca5a5;
+  --line-height: 28px;
+  --ink-black: #171717;
+  --ink-gray: #4b5563;
+  --tape-color: rgba(254, 240, 138, 0.45);
+  --tape-edge: rgba(217, 119, 6, 0.2);
+}
+
+/* Notebook ruled paper pattern */
+.notebook-paper-bg {
+  background-color: var(--paper-bg);
+  background-image: linear-gradient(var(--paper-line) 1px, transparent 1px);
+  background-size: 100% var(--line-height);
+  background-position: 0 14px;
+}
+
+/* Red notebook margin line on desktop screens */
+@media (min-width: 768px) {
+  .notebook-paper-bg {
+    background-image: 
+      linear-gradient(90deg, transparent 59px, var(--paper-margin-line) 59px, var(--paper-margin-line) 61px, transparent 61px),
+      linear-gradient(var(--paper-line) 1px, transparent 1px);
+    background-size: 100% 100%, 100% var(--line-height);
+    background-position: 0 0, 0 14px;
+  }
+}
+
+/* Subtle graph paper pattern (alternative or for specific boxes) */
+.notebook-grid-bg {
+  background-color: #faf8f3;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Subtle noise texture overlay */
+.paper-texture {
+  position: relative;
+}
+
+.paper-texture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 0);
+  background-size: 8px 8px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+/* Binder rings / notebook margin holes (desktop only decorative) */
+@media (min-width: 1024px) {
+  .binder-holes {
+    position: relative;
+  }
+  .binder-holes::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    background-image: radial-gradient(circle, #2d2a26 45%, transparent 50%);
+    background-size: 14px 70px;
+    background-position: center 10px;
+    z-index: 2;
+    opacity: 0.15;
+  }
+}
