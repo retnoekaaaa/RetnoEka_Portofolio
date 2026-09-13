@@ -17,7 +17,7 @@ export interface Project {
   team: string;
   tags: string[];
   metrics: ProjectMetric[];
-  featuredImage: string;
+  featuredImage?: string;
   secondaryImage?: string;
   demoUrl?: string;
   githubUrl?: string;

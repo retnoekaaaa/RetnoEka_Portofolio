@@ -55,8 +55,6 @@ export const portfolioData: PortfolioData = {
       team: "Group Project (PKL Internship)",
       tags: ["Next.js 16", "TypeScript", "Supabase", "Tailwind CSS", "Framer Motion", "Recharts", "RBAC"],
       metrics: [],
-      featuredImage: "/images/projects/alumnihub-main.png",
-      secondaryImage: "/images/projects/alumnihub-preview.jpg",
       githubUrl: "https://github.com/syahlasandiani/pkl-alumnihub.git",
       highlights: [
         "Group Project (PKL): Built collaboratively using Git feature branches and code reviews.",
@@ -78,8 +76,6 @@ export const portfolioData: PortfolioData = {
       team: "Group Project (PBP Course)",
       tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "React 18", "Lucide React", "React Hot Toast"],
       metrics: [],
-      featuredImage: "/images/projects/shoes4us-main.jpg",
-      secondaryImage: "/images/projects/shoes4us-logo.jpg",
       githubUrl: "https://github.com/Ranggadya/E-Commerce.git",
       highlights: [
         "Academic Group Project: Collaborated with a 5-member student engineering team for Platform-Based Development (PBP).",
@@ -101,8 +97,6 @@ export const portfolioData: PortfolioData = {
       team: "Group Project (PPL Course)",
       tags: ["Laravel 12", "PHP 8.2+", "MySQL", "Inertia.js", "React 18", "Tailwind CSS", "DomPDF", "Sanctum"],
       metrics: [],
-      featuredImage: "/images/projects/cekimarket-main.jpg",
-      secondaryImage: "/images/projects/cekimarket-promo1.png",
       githubUrl: "https://github.com/rafihendiansyah/CekiMarket.git",
       highlights: [
         "Academic Group Project: Built collaboratively for the Software Engineering Project (PPL) course following formal SRS specifications.",
@@ -124,8 +118,6 @@ export const portfolioData: PortfolioData = {
       team: "Solo Project (KKN Community Service)",
       tags: ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React", "Interactive Calculators"],
       metrics: [],
-      featuredImage: "/images/projects/biopori-main.jpg",
-      secondaryImage: "/images/projects/biopori-logo.png",
       githubUrl: "https://github.com/retnoekaaaa/KKN_Kedungbanjar26_Biopori.git",
       highlights: [
         "Solo University Community Project (KKN): Independently conceptualized, designed, and developed for the community of Desa Kedungbanjar.",
