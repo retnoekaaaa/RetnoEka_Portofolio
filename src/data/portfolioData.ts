@@ -162,26 +162,26 @@ export const portfolioData: PortfolioData = {
   socials: [
     {
       platform: "GitHub",
-      url: "https://github.com",
-      handle: "@eka-dev",
+      url: "https://github.com/retnoekaaaa",
+      handle: "@retnoekaaaa",
       iconName: "github"
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com",
-      handle: "Eka Wardana",
+      url: "https://linkedin.com/in/retnoekatriatry",
+      handle: "Retno Eka Triatry",
       iconName: "linkedin"
     },
     {
       platform: "Instagram",
-      url: "https://instagram.com",
-      handle: "@eka.codes",
+      url: "https://instagram.com/retnoekaaaa",
+      handle: "@retnoekaaaa",
       iconName: "instagram"
     },
     {
       platform: "Email",
-      url: "mailto:eka.contact@example.com",
-      handle: "eka.contact@example.com",
+      url: "mailto:retnoe54@gmail.com",
+      handle: "retnoe54@gmail.com",
       iconName: "mail"
     }
   ]
