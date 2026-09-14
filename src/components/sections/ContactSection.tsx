@@ -38,8 +38,8 @@ export const ContactSection: React.FC = () => {
     },
     {
       name: "LinkedIn",
-      handle: "Retno Eka Triatry",
-      url: "https://linkedin.com/in/retnoekatriatry",
+      handle: "Retno Eka",
+      url: "https://www.linkedin.com/in/retno-eka-7a59612b8/",
       desc: "Professional career & network",
       icon: <LinkedinIcon size={20} />,
       bg: "bg-[#bae6fd]/40 hover:bg-[#bae6fd]/70",
@@ -47,8 +47,8 @@ export const ContactSection: React.FC = () => {
     },
     {
       name: "Instagram",
-      handle: "@retnoekaaaa",
-      url: "https://instagram.com/retnoekaaaa",
+      handle: "@retno_ekaa",
+      url: "https://instagram.com/retno_ekaa",
       desc: "Design, updates & daily life",
       icon: <InstagramIcon size={20} />,
       bg: "bg-[#fbcfe8]/40 hover:bg-[#fbcfe8]/70",

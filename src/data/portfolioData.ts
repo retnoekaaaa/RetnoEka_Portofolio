@@ -168,14 +168,14 @@ export const portfolioData: PortfolioData = {
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/retnoekatriatry",
-      handle: "Retno Eka Triatry",
+      url: "https://www.linkedin.com/in/retno-eka-7a59612b8/",
+      handle: "Retno Eka",
       iconName: "linkedin"
     },
     {
       platform: "Instagram",
-      url: "https://instagram.com/retnoekaaaa",
-      handle: "@retnoekaaaa",
+      url: "https://instagram.com/retno_ekaa",
+      handle: "@retno_ekaa",
       iconName: "instagram"
     },
     {
