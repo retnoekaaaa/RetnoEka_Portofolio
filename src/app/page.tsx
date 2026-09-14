@@ -5,7 +5,6 @@ import { WindowHeader } from "../components/common/WindowHeader";
 import { HeroSection } from "../components/sections/HeroSection";
 import { AboutSection } from "../components/sections/AboutSection";
 import { ProjectsSection } from "../components/sections/ProjectsSection";
-import { PlaygroundSection } from "../components/sections/PlaygroundSection";
 import { ContactSection } from "../components/sections/ContactSection";
 
 export default function PortfolioPage() {
@@ -13,7 +12,7 @@ export default function PortfolioPage() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "works", "playground", "contact"];
+      const sections = ["home", "about", "works", "contact"];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -48,9 +47,6 @@ export default function PortfolioPage() {
 
         {/* Featured Projects Section */}
         <ProjectsSection />
-
-        {/* Playground & Retro Mac Section */}
-        <PlaygroundSection />
 
         {/* Contact Section */}
         <ContactSection />

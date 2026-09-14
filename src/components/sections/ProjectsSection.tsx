@@ -72,15 +72,6 @@ export const ProjectsSection: React.FC = () => {
             <ProjectFolderCard key={project.id} project={project} index={idx} />
           ))}
         </div>
-
-        {/* Bottom Note */}
-        <div className="text-center font-handwriting text-xl text-neutral-600 mt-6">
-          ✨ Want to see more experimental repos? Check out the{" "}
-          <a href="#playground" className="underline font-bold text-neutral-900 hover:text-amber-600">
-            Playground Lab
-          </a>{" "}
-          below!
-        </div>
       </div>
     </section>
   );

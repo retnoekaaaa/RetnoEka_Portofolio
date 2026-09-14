@@ -22,7 +22,6 @@ export const WindowHeader: React.FC<WindowHeaderProps> = ({ currentSection = "ho
     { label: "HOME", href: "#home" },
     { label: "ABOUT", href: "#about" },
     { label: "WORKS", href: "#works" },
-    { label: "PLAYGROUND", href: "#playground" },
     { label: "CONTACT", href: "#contact" },
   ];
 
