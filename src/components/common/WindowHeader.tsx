@@ -1,30 +1,14 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import confetti from "canvas-confetti";
-import { Sparkles, Terminal, Volume2, VolumeX } from "lucide-react";
+import { Terminal } from "lucide-react";
 
 interface WindowHeaderProps {
   currentSection?: string;
 }
 
 export const WindowHeader: React.FC<WindowHeaderProps> = ({ currentSection = "home" }) => {
-  const [timeString, setTimeString] = useState<string>("");
-  const [soundEnabled, setSoundEnabled] = useState<boolean>(true);
-
-  useEffect(() => {
-    const updateClock = () => {
-      const now = new Date();
-      const hours = String(now.getHours()).padStart(2, "0");
-      const minutes = String(now.getMinutes()).padStart(2, "0");
-      const seconds = String(now.getSeconds()).padStart(2, "0");
-      setTimeString(`${hours}:${minutes}:${seconds}`);
-    };
-    updateClock();
-    const interval = setInterval(updateClock, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
   const handleConfetti = () => {
     confetti({
       particleCount: 80,
@@ -64,7 +48,7 @@ export const WindowHeader: React.FC<WindowHeaderProps> = ({ currentSection = "ho
           </div>
         </div>
 
-        {/* Center: Navigation Pills (styled like the reference) */}
+        {/* Navigation Pills (styled like the reference) */}
         <nav className="flex items-center gap-1 sm:gap-2 overflow-x-auto py-1 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {navItems.map((item) => {
             const isActive = currentSection.toLowerCase() === item.label.toLowerCase();
@@ -84,22 +68,6 @@ export const WindowHeader: React.FC<WindowHeaderProps> = ({ currentSection = "ho
             );
           })}
         </nav>
-
-        {/* Right: Digital Clock & Easter Egg Action */}
-        <div className="hidden sm:flex items-center gap-2">
-          <button
-            onClick={handleConfetti}
-            className="hidden md:flex items-center gap-1 text-xs font-mono font-bold bg-[#bbf7d0] px-2 py-1 border border-[#171717] rounded shadow-[1.5px_1.5px_0px_#171717] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
-            title="Celebrate"
-          >
-            <Sparkles size={13} />
-            <span>FUN!</span>
-          </button>
-
-          <div className="text-[11px] sm:text-xs font-mono font-bold px-2 py-1 bg-white border border-[#171717] rounded shadow-[1.5px_1.5px_0px_#171717] text-neutral-800">
-            {timeString || "00:00:00"}
-          </div>
-        </div>
       </div>
     </header>
   );

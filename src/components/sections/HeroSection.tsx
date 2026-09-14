@@ -3,20 +3,10 @@
 import React from "react";
 import { portfolioData } from "../../data/portfolioData";
 import { TapeSticker } from "../common/TapeSticker";
-import { ArrowDown, Code2, Sparkles, Send } from "lucide-react";
-import confetti from "canvas-confetti";
+import { ArrowDown, Code2, Send } from "lucide-react";
 
 export const HeroSection: React.FC = () => {
   const { personal } = portfolioData;
-
-  const triggerSparkle = () => {
-    confetti({
-      particleCount: 50,
-      spread: 60,
-      origin: { y: 0.4 },
-      colors: ["#fef08a", "#bae6fd", "#fbcfe8", "#bbf7d0"]
-    });
-  };
 
   return (
     <section id="home" className="relative pt-12 pb-16 px-4 sm:px-6 overflow-hidden">
@@ -85,15 +75,6 @@ export const HeroSection: React.FC = () => {
             <span>VIEW PROJECTS</span>
             <ArrowDown size={15} />
           </a>
-
-          <button
-            onClick={triggerSparkle}
-            aria-label="Fun confetti effect"
-            className="brutal-btn p-3 bg-white text-neutral-900 rounded shadow-[3px_3px_0px_#171717]"
-            title="Celebrate!"
-          >
-            <Sparkles size={18} className="text-amber-500" />
-          </button>
         </div>
 
         {/* Location & Availability footnote */}
